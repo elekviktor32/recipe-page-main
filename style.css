@@ -1,6 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@font-face {
+  font-family: outfit;
+  src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
 
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+@font-face {
+  font-family: youngserif;
+  src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
 
 :root {
   --nutmeg: hsl(14, 45%, 36%);
@@ -17,7 +23,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Outfit", sans-serif;
+  font-family: outfit;
 }
 
 ul,
@@ -36,7 +42,7 @@ body {
 
 h1,
 h2 {
-  font-family: "Young Serif", serif;
+  font-family: youngserif;
   color: var(--nutmeg);
   letter-spacing: 0.05rem;
 }
